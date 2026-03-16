@@ -6,6 +6,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Smooth scrolling added */
+html{
+  scroll-behavior:smooth;
+}
+
 body {
   background: linear-gradient(to bottom, #f9f9f9, #ffffff);
   color: #001c3d;
@@ -49,9 +54,11 @@ header nav {
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 
+/* Logo color improved */
 .logo {
   font-weight: bold;
   font-size: 1.5rem;
+  color:#00a87e;
 }
 
 .nav-links {
@@ -231,11 +238,13 @@ header nav {
   margin-top: 20px;
 }
 
-/* Footer */
+/* Footer improved */
 footer {
   margin-top: 60px;
-  color: #555;
-  text-align: center;
+  background:#001c3d;
+  color:white;
+  text-align:center;
+  padding:20px;
 }
 
 /* Responsive */
