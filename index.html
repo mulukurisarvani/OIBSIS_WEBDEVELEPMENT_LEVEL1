@@ -13,67 +13,94 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-background:linear-gradient(to bottom,#f9f9f9,#ffffff);
-color:#001c3d;
-text-align:center;
+background:#f4f7fb;
+color:#333;
 }
 
 /* Header */
 
 header{
-background:white;
-padding:25px;
-box-shadow:0 5px 20px rgba(0,0,0,0.05);
+background:linear-gradient(135deg,#00a87e,#0066ff);
+color:white;
+padding:40px 20px;
+text-align:center;
 }
 
 header h1{
-color:#00a87e;
+font-size:36px;
 margin-bottom:10px;
 }
 
-/* Navigation */
-
-nav{
-margin-top:20px;
-}
-
-nav a{
-text-decoration:none;
-color:white;
-background:#00a87e;
-padding:14px 30px;
-margin:12px;
-border-radius:30px;
-display:inline-block;
+header p{
 font-size:18px;
-transition:0.3s;
+opacity:0.9;
 }
 
-nav a:hover{
-background:#008a65;
-transform:translateY(-3px);
-}
-
-/* Welcome Section */
+/* Main Section */
 
 section{
-padding:80px 20px;
-max-width:800px;
-margin:auto;
+padding:60px 20px;
+text-align:center;
 }
 
 section h2{
-font-size:32px;
-margin-bottom:20px;
+font-size:30px;
+margin-bottom:15px;
+color:#001c3d;
 }
 
 section p{
+max-width:700px;
+margin:auto;
 font-size:18px;
 line-height:1.6;
+}
+
+/* Task Cards */
+
+.tasks{
+margin-top:40px;
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:260px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#00a87e;
+}
+
+.card a{
+text-decoration:none;
+background:#0066ff;
+color:white;
+padding:10px 20px;
+border-radius:25px;
+display:inline-block;
+margin-top:10px;
+transition:0.3s;
+}
+
+.card a:hover{
+background:#0044aa;
 }
 
 /* Footer */
@@ -81,6 +108,7 @@ line-height:1.6;
 footer{
 background:#001c3d;
 color:white;
+text-align:center;
 padding:20px;
 margin-top:60px;
 }
@@ -96,38 +124,49 @@ margin-top:60px;
 <h1>OIBSIP Web Development Internship</h1>
 <p>Level 1 Project Tasks</p>
 
-<nav>
-
-<a href="https://mulukurisarvani.github.io/OIBSIS_WEBDEVELEPMENT_LEVEL1/task1/" target="_blank">
-Task 1 – Landing Page
-</a>
-
-<a href="https://mulukurisarvani.github.io/OIBSIS_WEBDEVELEPMENT_LEVEL1/task2/" target="_blank">
-Task 2 – Portfolio
-</a>
-
-<a href="https://mulukurisarvani.github.io/OIBSIS_WEBDEVELEPMENT_LEVEL1/task3/" target="_blank">
-Task 3 – Temperature Converter
-</a>
-
-</nav>
-
 </header>
 
 <section>
 
-<h2>Welcome</h2>
+<h2>My Internship Projects</h2>
 
 <p>
-This repository contains projects completed during the
+This repository contains the projects completed during the
 Oasis Infobyte Web Development Internship (Level 1).
+Each task demonstrates basic web development skills using
+HTML, CSS, and JavaScript.
 </p>
 
-<p>
-The tasks include a Landing Page, Portfolio Website,
-and a Temperature Converter developed using HTML,
-CSS, and JavaScript.
-</p>
+<div class="tasks">
+
+<div class="card">
+<h3>Task 1</h3>
+<p>Landing Page Design</p>
+
+<a href="https://mulukurisarvani.github.io/OIBSIS_WEBDEVELEPMENT_LEVEL1/task1/" target="_blank">
+View Project
+</a>
+</div>
+
+<div class="card">
+<h3>Task 2</h3>
+<p>Personal Portfolio</p>
+
+<a href="https://mulukurisarvani.github.io/OIBSIS_WEBDEVELEPMENT_LEVEL1/task2/" target="_blank">
+View Project
+</a>
+</div>
+
+<div class="card">
+<h3>Task 3</h3>
+<p>Temperature Converter</p>
+
+<a href="https://mulukurisarvani.github.io/OIBSIS_WEBDEVELEPMENT_LEVEL1/task3/" target="_blank">
+View Project
+</a>
+</div>
+
+</div>
 
 </section>
 
