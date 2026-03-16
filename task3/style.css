@@ -1,85 +1,79 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
-body {
-    height: 100vh;
-    background: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+height:100vh;
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
-/* Main Box */
-.container {
-    background: #ffffff;
-    width: 350px;
-    padding: 35px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+.container{
+background:#ffffff;
+width:350px;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
 
-/* Title */
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 600;
+.title{
+text-align:center;
+margin-bottom:30px;
+font-weight:600;
 }
 
-/* Form Group */
-.form-group {
-    margin-bottom: 22px;
-    display: flex;
-    flex-direction: column;
+.form-group{
+margin-bottom:22px;
+display:flex;
+flex-direction:column;
 }
 
-.form-group label {
-    margin-bottom: 8px;
-    color: #666;
-    font-size: 14px;
+.form-group label{
+margin-bottom:8px;
+color:#666;
+font-size:14px;
 }
 
-/* Inputs & Select */
-input,
-select {
-    padding: 10px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    font-size: 16px;
-    outline: none;
-    background: transparent;
+input,select{
+padding:10px;
+border:none;
+border-bottom:1px solid #ccc;
+font-size:16px;
+outline:none;
+background:transparent;
 }
 
 input:focus,
-select:focus {
-    border-bottom: 2px solid #1e73e8;
+select:focus{
+border-bottom:2px solid #1e73e8;
 }
 
-/* Button */
-.convert-btn {
-    width: 100%;
-    padding: 14px;
-    background: #1e73e8;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.3s;
+.convert-btn{
+width:100%;
+padding:14px;
+background:#1e73e8;
+color:#fff;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+transition:0.3s;
 }
 
-.convert-btn:hover {
-    background: #155ec2;
+.convert-btn:hover{
+background:#155ec2;
 }
 
-/* Responsive */
-@media (max-width: 400px) {
-    .container {
-        width: 90%;
-    }
+@media(max-width:400px){
+
+.container{
+width:90%;
+}
+
 }
